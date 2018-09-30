@@ -9,7 +9,10 @@ key words: attribute, response, model, linear relationship, function, parameter,
 summary:
 
 - Create a linear model that encapsulates the relationship between a set of attributes and a set of responses.
-  - $f(x_n; w_0, w_1) = w_0 + w_1x$
+
+  - ```text
+    ![](http://latex.codecogs.com/gif.latex?f(x_n; w_0, w_1) = w_0 + w_1x)
+    ```
 - Define a loss function to fit / learn this model, as a way of objectively identifying how good a particular model was.
   - squared loss function: $ \mathcal{L_n}(t_n, f(x_n; w_0, w_1)) = (t_n - f(x_n; w_0, w_1))^2$
   - average loss across the whole dataset: $\mathcal{L} = \frac{1}{N} \sum_{n=1}^N \mathcal{L_n}(t_n, f(x_n; w_0, w_1))$
