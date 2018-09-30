@@ -9,15 +9,14 @@ key words: attribute, response, model, linear relationship, function, parameter,
 summary:
 
 - Create a linear model that encapsulates the relationship between a set of attributes and a set of responses.
-<<<<<<< HEAD
-  - $f(x_n; w_0, w_1) = w_0 + w_1x$
-=======
+  ​	$f(x_n; w_0, w_1) = w_0 + w_1x$
 
-  -<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_n; w_0, w_1) = w_0 + w_1x" title="f(x_n; w_0, w_1) = w_0 + w_1x" />
->>>>>>> f90d7253ddaf18749b61c5677dc1b4b16d90b550
 - Define a loss function to fit / learn this model, as a way of objectively identifying how good a particular model was.
-  - squared loss function: $ \mathcal{L_n}(t_n, f(x_n; w_0, w_1)) = (t_n - f(x_n; w_0, w_1))^2$
-  - average loss across the whole dataset: $\mathcal{L} = \frac{1}{N} \sum_{n=1}^N \mathcal{L_n}(t_n, f(x_n; w_0, w_1))$
+
+  ​	squared loss function: $ \mathcal{L_n}(t_n, f(x_n; w_0, w_1)) = (t_n - f(x_n; w_0, w_1))^2$
+
+  ​	average loss across the whole dataset: $\mathcal{L} = \frac{1}{N} \sum_{n=1}^N \mathcal{L_n}(t_n, f(x_n; w_0, w_1))$
+
 - Derive exact expressions for the values of the model parameters that minimised the loss and therefore corresponded to the best function, using the squared loss.
   - argmin: find the argument that minimises ...
   - Method of turning points:
@@ -27,9 +26,15 @@ summary:
 
 ------
 
+------
+
 ## Chapter 2: Learning Modelling - A Maximum Likelihood Approach
 
+------
+
 ### 2.1 Errors As Noise
+
+------
 
 ### 2.2Random Variables and Probability
 
@@ -127,23 +132,41 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
     - $cov\{x\} = E_{P(\vec{x})}  {\{ \vec{x}\vec{x}^T \} } - E_{P(\vec{x})}  \{\vec{x}\} E_{P(\vec{x})}  \{\vec{x}\}^T $ 
 
+------
+
 ###2.3Popular Discrete Distributions
+
+------
 
 ### 2.4 Continuous Random Variables - Density Function
 
+------
+
 ### 2.5 Popular Continuous Density Function
+
+------
 
 ### 2.7 Thinking Generatively... Continued
 
+------
+
 ### 2.8 Likelihood
+
+------
 
 ### 2.9 The Bias-Variance Trade-Off
 
+------
+
 ### 2.10 Effect of Noise on Parameter Estimates
+
+------
 
 ### 2.11 Variability in Predictions
 
-##  
+
+
+------
 
 ------
 
@@ -153,9 +176,13 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ------
 
+------
+
 ##Chapter 4: Bayesian Inference
 
 
+
+------
 
 ------
 
@@ -165,9 +192,13 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ------
 
+------
+
 ##Chapter 6: Clustering
 
 
+
+------
 
 ------
 
@@ -175,16 +206,29 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ------
 
+------
+
 ## Chapter 8: Gaussian Processes
+
+------
 
 ------
 
 ## Chapter 9: Markov Chain Monte Carlo Sampling
 
-<<<<<<< HEAD
+------
+
 ------
 
 ## Chapter 10: Advanced Mixture Modeling
-=======
+
+------
+
+------
+
 ## Chapter 10: Advanced Mixture Modeling
->>>>>>> f90d7253ddaf18749b61c5677dc1b4b16d90b550
+
+------
+
+------
+
