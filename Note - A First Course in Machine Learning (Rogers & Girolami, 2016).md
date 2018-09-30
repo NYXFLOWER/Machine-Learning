@@ -9,7 +9,12 @@ key words: attribute, response, model, linear relationship, function, parameter,
 summary:
 
 - Create a linear model that encapsulates the relationship between a set of attributes and a set of responses.
+<<<<<<< HEAD
   - $f(x_n; w_0, w_1) = w_0 + w_1x$
+=======
+
+  -<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x_n; w_0, w_1) = w_0 + w_1x" title="f(x_n; w_0, w_1) = w_0 + w_1x" />
+>>>>>>> f90d7253ddaf18749b61c5677dc1b4b16d90b550
 - Define a loss function to fit / learn this model, as a way of objectively identifying how good a particular model was.
   - squared loss function: $ \mathcal{L_n}(t_n, f(x_n; w_0, w_1)) = (t_n - f(x_n; w_0, w_1))^2$
   - average loss across the whole dataset: $\mathcal{L} = \frac{1}{N} \sum_{n=1}^N \mathcal{L_n}(t_n, f(x_n; w_0, w_1))$
@@ -176,6 +181,10 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ## Chapter 9: Markov Chain Monte Carlo Sampling
 
+<<<<<<< HEAD
 ------
 
 ## Chapter 10: Advanced Mixture Modeling
+=======
+## Chapter 10: Advanced Mixture Modeling
+>>>>>>> f90d7253ddaf18749b61c5677dc1b4b16d90b550
