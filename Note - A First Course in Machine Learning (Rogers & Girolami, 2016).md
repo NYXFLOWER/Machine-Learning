@@ -1,5 +1,9 @@
 # Note - A First Course in Machine Learning (Rogers & Girolami, 2016)
 
+------
+
+------
+
 ## Chapter 1: Learning Modelling - A least Squares Approach
 
 ### Linear Modelling
@@ -72,11 +76,11 @@ key words: random variables, random events, discrete random variables, sample sp
 
 #### 2.2.5 joint probabilities
 
-$$P(Y=y, X=x) = P(Y=y) \times P(X=x)$$
+​	$$P(Y=y, X=x) = P(Y=y) \times P(X=x)$$
 
-$$P(y_1, y_2, ..., y_J) = \prod^J_{j=1}{P(y_j)}$$
+​	$$P(y_1, y_2, ..., y_J) = \prod^J_{j=1}{P(y_j)}$$
 
-$$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
+​	$$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 #### 2.2.6 Marginalization
 
@@ -134,15 +138,31 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ------
 
-###2.3Popular Discrete Distributions
+### 2.3Popular Discrete Distributions
+
+#### 2.3.1 Bernoulli distribution
+
+#### 2.3.2 Binomial distribution
+
+#### 2.3.3 Multinomial distribution
 
 ------
 
 ### 2.4 Continuous Random Variables - Density Function
 
+
+
 ------
 
 ### 2.5 Popular Continuous Density Function
+
+#### 2.5.1 The uniform density function
+
+#### 2.5.2 The beta density function
+
+#### 2.5.3 The Gaussian density function
+
+#### 2.5.4 Multivariate Gaussian
 
 ------
 
@@ -152,6 +172,14 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ### 2.8 Likelihood
 
+#### 2.8.1 Dataset likelihood
+
+#### 2.8.2 Maximum likelihood
+
+#### 2.8.3 Characteristics of the maximum likelihood solution
+
+#### 2.8.4 Maximum likelihood favours complex models
+
 ------
 
 ### 2.9 The Bias-Variance Trade-Off
@@ -160,11 +188,23 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ### 2.10 Effect of Noise on Parameter Estimates
 
+#### 2.10.1 Uncertainty in estimates
+
+#### 2.10.2 Comparison with empirical values
+
+#### 2.10.3 Variability in model parameters - Olympic data
+
 ------
 
 ### 2.11 Variability in Predictions
 
+####  
 
+------
+
+2.11.1 Predictive variability - an example
+
+#### 2.11.2 Expected values of the estimators
 
 ------
 
@@ -172,7 +212,63 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ##Chapter 3: Bayesian Approach
 
+### 3.1 A Coin Game
 
+#### 3.1.1 Counting heads
+
+#### 3.1.2 The Bayesian way
+
+------
+
+### 3.2 The Exact Posterior
+
+------
+
+### 3.3 The Three Scenarios
+
+#### 3.3.1 No prior knowledge
+
+#### 3.3.2 The fair coin scenario
+
+#### 3.3.3 A biased coin
+
+#### 3.3.4 The three scenarios - a summary
+
+#### 3.3.5 Adding more data
+
+------
+
+### 3.4 Marginal Likelihoods
+
+#### 3.4.1 Model comparison with the marginal likelihood
+
+------
+
+### 3.5 Hyperparameters
+
+------
+
+### 3.6 Graphical Models
+
+------
+
+### 3.8 A Bayesian Treatment of The Olympic 100m Data
+
+#### 3.8.1 The model
+
+#### 3.8.2 The likelihood
+
+#### 3.8.3 The prior
+
+#### 3.8.4 The posterior
+
+#### 3.8.5 A first-order polynomial
+
+### 3.8.6 Making predictions
+
+------
+
+### 3.9 Marginal Likelihood for Polynomial Model or Der Selection
 
 ------
 
@@ -180,13 +276,91 @@ $$P(Y=y, X=x) = P(Y=y |X=x) \times P(X=x) = P(X=x|Y=y) \times P(Y=y)$$
 
 ##Chapter 4: Bayesian Inference
 
+### 4.1 Non-Conjugate Models
 
+------
+
+### 4.2 Binary Responses
+
+------
+
+### 4.3 A Point Estimate - The Map Solution
+
+------
+
+### 4.4 The Laplace Approximation
+
+#### 4.4.1 Laplace approximation example: Approximating a gamma density
+
+#### 4.4.2 Laplace approximation for the binary response model
+
+------
+
+### 4.5 Sampling Techniques
+
+#### 4.5.1 Playing darts
+
+#### 4.5.2 The Metropolis-Hastings algorithm
+
+#### 4.5.3 The art of sampling
 
 ------
 
 ------
 
 ##Chapter 5: Classification
+
+### 5.1 The General Problem
+
+------
+
+### 5.2 Probabilistic Classifiers
+
+#### 5.2.1 The Bayes classifier
+
+##### 5.2.1.1 Likelihood - class - conditional distributions
+
+##### 5.2.1.2 Prior class distribution
+
+##### 5.2.1.3 Example - Gaussian class-conditionals
+
+##### 5.2.1.4 Making predictions
+
+##### 5.2.1.5 The naive-Bayes assumption
+
+##### 5.2.1.6 Example - classifying text
+
+##### 5.2.1.7 Smoothing
+
+#### 5.2.2 Logistic regression
+
+##### 5.2.2.1 Motivation
+
+##### 5.2.2.2 Non-linear decision functions
+
+##### 5.2.2.3 Non-parametric models - the Gaussian process
+
+------
+
+### 5.3 Non-Probabilistic Classifiers
+
+#### 5.3.1 K-nearest neighbours
+
+#### 5.3.2 Support vector machines and other kernel methods
+
+##### 5.3.2.1 The margin
+
+##### 5.3.2.2 Maximising the margin
+
+##### 5.3.2.3 Making predictions
+
+##### 5.3.2.4 Support vectors
+
+##### 5.3.2.5 Soft margins
+
+##### 5.3.2.6 Kernels
+
+------
 
 
 
