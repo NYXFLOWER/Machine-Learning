@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cedd93e4-483e-44a4-b444-a00487f2578c" name="Default" comment="" />
+    <list default="true" id="cedd93e4-483e-44a4-b444-a00487f2578c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/film-death-counts-Python.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/imdb-scraper.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/imdb-scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/movie-scraper.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/movie-scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/movies-R-full.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/movies-R.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/movies-python.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/code/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/notebook.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/notebook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/notebook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/notebook2.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/notebook2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/notebook2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/pandoc_config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/pandoc_config2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies scrape/programming_cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/bloody_gun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/code/code.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/code/code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/figure/baseGraphR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/figure/gunR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/figure/prettyR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/figure/rightLabelsR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/figurePy/basePy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/figurePy/finalPy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/figurePy/prettyPy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/pandoc_config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/run.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Deadliest movies/run.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/Linear regression.Rproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/code/code.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/code/code.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/figure/graphBaseR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/figure/graphPredictR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/figurePy/graphBasePy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/figurePy/graphPredictPy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/notebook.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/notebook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/notebook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/Linear regression/pandoc_config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/R-vs-Python-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/master.zip" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,34 +65,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="movie_body_count.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warm/movie_body_count.py">
+      <file leaf-file-name="lab3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/warm/lab3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="14" selection-start-line="1" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/warm/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state>
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_imdbbbb.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/warm/test_imdbbbb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +113,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="573" />
     <option name="width" value="970" />
     <option name="height" value="870" />
@@ -240,18 +268,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-8" width="1872" height="1096" extended-state="6" />
+    <frame x="57" y="-8" width="1871" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="137" height="670" id="Documentation" order="7" side_tool="true" weight="0.32842416" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.5678322" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.22126746" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13737486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13912076" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="4" />
@@ -264,6 +291,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="137" height="670" id="Documentation" order="7" side_tool="true" weight="0.32842416" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -284,6 +312,33 @@
     <entry file="file://$PROJECT_DIR$/warm/movie_body_count.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
+          <caret line="2" column="14" selection-start-line="1" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/test_imdbbbb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/movie_body_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
           <caret line="2" column="14" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
@@ -298,16 +353,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warm/movie_body_count.py">
+    <entry file="file://$PROJECT_DIR$/warm/objective_squares_error.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/olympicMarathonTimes.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/test_imdbbbb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="14" selection-start-line="1" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/warm/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="576">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -315,12 +379,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warm/test_imdbbbb.py">
+    <entry file="file://$PROJECT_DIR$/warm/movie_body_count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret line="2" column="14" selection-start-line="1" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/lab3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
