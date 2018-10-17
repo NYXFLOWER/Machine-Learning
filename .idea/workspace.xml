@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mlai.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mlai.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/warm/mlai.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="97">
@@ -49,6 +49,15 @@
               <folding>
                 <element signature="e#84#95#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basis_functions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/warm/basis_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -74,6 +83,7 @@
         <option value="$PROJECT_DIR$/warm/lab3.py" />
         <option value="$PROJECT_DIR$/warm/gp_tutorial.py" />
         <option value="$PROJECT_DIR$/warm/teaching_plots.py" />
+        <option value="$PROJECT_DIR$/warm/basis_functions.py" />
       </list>
     </option>
   </component>
@@ -92,11 +102,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="56" />
-    <option name="y" value="-9" />
-    <option name="width" value="1872" />
-    <option name="height" value="1097" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="989" />
+    <option name="width" value="938" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -262,20 +271,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="-7" width="1482" height="878" extended-state="6" />
+    <frame x="989" y="0" width="938" height="1087" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.27657267" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="7" visible="true" weight="0.27657267" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17280453" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32332563" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32949308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -287,7 +298,6 @@
       <window_info anchor="right" x="0" y="0" width="318" height="678" id="Documentation" order="3" side_tool="true" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +312,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/warm/gp_tutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/teaching_plots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/mlai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2806">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+          <folding>
+            <element signature="e#84#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/warm/gp_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1058">
@@ -444,6 +484,13 @@
           <folding>
             <element signature="e#84#95#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/basis_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
