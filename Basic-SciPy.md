@@ -1,6 +1,6 @@
 # Basic SciPy
 
-## Package
+## Package 
 
 ### [numpy](https://docs.scipy.org/doc/numpy/reference/index.html)
 
@@ -28,6 +28,19 @@
 3. Setting
    - `np.set_printoptions()`
      - parameters: precision=int, suppress=Boolean
+4. Random
+   - generate random number: 
+     - `rand`: [0, 1], float
+     - `randn`: standard normal distribution
+     - `randint`: specify a range
+   - generate distribution
+     - `normal`(mean, standard deviation, size=(r,n))
+     - `uniform` (start, end, size)
+     - `poisson`(lanbda, size)
+   - shuffle array and choice
+     - `shuffle`: shuffle the input array.
+     - `permutation`: generation a new shuffled array.
+     - `choice`: (array, number, size, replace=boolen)
 
 #### About Output
 
