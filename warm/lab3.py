@@ -20,7 +20,7 @@ for i in range(1, epoch):
     if i % 10 == 0:
         objective = se.sum_squares_error(Y, X, m, c)
         print("iteration ", i, " objective: ", objective)
-        if pre_objective - objective  < 1e-4:
+        if pre_objective - objective < 1e-4:
             break
         pre_objective = objective
     if i % 2000 == 0:
