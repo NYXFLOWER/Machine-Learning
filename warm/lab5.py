@@ -236,7 +236,7 @@ degrees = np.linspace(0, 17, 18)
 print('the leave-one-out cross validation error for basis functions')
 for i in range(max_degree+1):
     average_validation[i, 0] = model_estimation_leave_one_out(x, y, i)
-    print('basis degree %2d', i, ': ', average_validation[i, 0])
+    print('basis degree ', i, ': ', average_validation[i, 0])
 
 # plot
 plt.figure(3)
@@ -274,3 +274,50 @@ def model_estimation_k_fold_cross(x, y, degree, k):
     return validation/k
 
 
+# The model selected by hold out validation
+print('-------------------- The model selected by hold out validation --------------------')
+argmin_validation = np.argmin(error_validation)
+min_validation = np.min(error_validation)
+print('The polynomial with degree ', argmin_validation,
+      ' has the minimum validation error ', min_validation)
+print()
+
+# The model selected by leave-one-out validation
+print('-------------------- The model selected by leave-one-out validation --------------------')
+argmin_validation = np.argmin(average_validation)
+min_validation = np.min(average_validation)
+print('The polynomial with degree ', argmin_validation,
+          ' has the minimum validation error ', min_validation)
+print()
+
+
+# compute k-fold cross validation error
+print('-------------------- The model selected by five-fold cross validation --------------------')
+max_degree = 17
+k = 5
+average_validation_k = np.zeros(shape=(max_degree+1, 1))
+degrees = np.linspace(0, 17, 18, dtype=np.int)
+
+# compute k-fold cross validation error
+for j in range(10):
+    print('the ', j+1, 'th k-fold cross validation error for basis functions')
+    for i in range(max_degree + 1):
+        average_validation_k[i, 0] = model_estimation_k_fold_cross(x, y, i, k)
+    argmin_validation = np.argmin(average_validation_k)
+    min_validation = np.min(average_validation_k)
+    print('The polynomial with degree ', argmin_validation,
+          ' has the minimum validation error ', min_validation)
+    print()
+
+print('---------------------------------- Answer ----------------------------------')
+print('Both the hold out validation and the leave-one-out validation select the polynomial model with degree 2.')
+print('Different five-fold cross validations select different models.')
+
+#     plt.figure(j + 20)
+#     plt.xticks(degrees)
+#     plt.yscale('log')
+#     plt.xlabel('Polynomial Order')
+#     plt.ylabel('Log Validation Loss')
+#     plt.stem(degrees, average_validation_k)
+#
+# plt.show()
