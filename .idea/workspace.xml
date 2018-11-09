@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cedd93e4-483e-44a4-b444-a00487f2578c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Machine-Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine-Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +12,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Machine_Learning$test.coverage" NAME="test Coverage Results" MODIFIED="1537994165605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/warm" />
-    <SUITE FILE_PATH="coverage/Machine_Learning$lab6.coverage" NAME="lab6 Coverage Results" MODIFIED="1541569265874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/warm" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$lab6.coverage" NAME="lab6 Coverage Results" MODIFIED="1541734843256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/warm" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$GaussianLeaveOneOut.coverage" NAME="GaussianLeaveOneOut Coverage Results" MODIFIED="1541737226800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/warm" />
     <SUITE FILE_PATH="coverage/Machine_Learning$movie_body_count.coverage" NAME="movie_body_count Coverage Results" MODIFIED="1537994152387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/warm" />
     <SUITE FILE_PATH="coverage/Machine_Learning$lab5.coverage" NAME="lab5 Coverage Results" MODIFIED="1540330369762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/warm" />
   </component>
@@ -86,32 +85,35 @@
     <session id="978603644">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="10" />
+          <entry key="GaussianLeaveOneOut" value="17" />
+          <entry key="Python Console" value="203" />
+          <entry key="dummy" value="15" />
           <entry key="lab6" value="703" />
-          <entry key="py" value="3259" />
+          <entry key="py" value="7376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3972" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="8299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -119,16 +121,29 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/warm/lab6.py">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/warm/GaussianLeaveOneOut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="228" selection-start-line="228" selection-end-line="279" selection-end-column="10" />
+            <state relative-caret-position="192">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="50" selection-end-column="29" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1541605876770" expanded="true" signature="5642:6830" ph="..." />
-                <marker date="1541605876770" expanded="true" signature="6039:6040" ph="..." />
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1541787084284" expanded="true" signature="135:936" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/warm/GaussianHoldOut.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="959">
+              <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1541787454870" expanded="true" signature="1068:3305" ph="..." />
+                <marker date="1541787454870" expanded="true" signature="1406:1415" ph="..." />
               </folding>
             </state>
           </provider>
@@ -156,6 +171,9 @@
         <option value="$PROJECT_DIR$/warm/lab3.py" />
         <option value="$PROJECT_DIR$/warm/lab5.py" />
         <option value="$PROJECT_DIR$/warm/lab6.py" />
+        <option value="$PROJECT_DIR$/warm/6.py" />
+        <option value="$PROJECT_DIR$/warm/GaussianLeaveOneOut.py" />
+        <option value="$PROJECT_DIR$/warm/GaussianHoldOut.py" />
       </list>
     </option>
   </component>
@@ -171,7 +189,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="57" />
     <option name="y" value="22" />
     <option name="width" value="1623" />
@@ -231,7 +249,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lab6">
+  <component name="RunManager" selected="Python.GaussianLeaveOneOut">
+    <configuration name="GaussianLeaveOneOut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine-Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/warm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/warm/GaussianLeaveOneOut.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Machine-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,25 +339,6 @@
       <module name="Machine-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/warm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/warm/lab6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="movie_body_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine-Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
@@ -330,9 +348,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/warm/movie_body_count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/warm/lab6.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -362,19 +380,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.movie_body_count" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.lab3" />
       <item itemvalue="Python.lab5" />
       <item itemvalue="Python.lab6" />
+      <item itemvalue="Python.GaussianLeaveOneOut" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GaussianLeaveOneOut" />
         <item itemvalue="Python.lab6" />
         <item itemvalue="Python.lab5" />
         <item itemvalue="Python.lab3" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.movie_body_count" />
       </list>
     </recent_temporary>
   </component>
@@ -401,10 +419,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="57" y="22" width="1623" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14407815" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14590965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -418,16 +436,16 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.302799" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3256785" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.4004884" />
-      <window_info anchor="right" id="R Graphics" order="4" weight="0.32936803" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.8341709" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32914573" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" x="0" y="0" width="318" height="678" id="Documentation" order="6" side_tool="true" visible="true" weight="0.32952926" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Python Console" order="8" weight="0.82663316" />
-      <window_info anchor="right" id="Debug" order="9" weight="0.496337" />
+      <window_info anchor="right" id="Python Console" order="8" weight="0.9974874" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14423792" />
@@ -464,6 +482,9 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -472,6 +493,15 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i == 4</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/warm/olympicMarathonTimes.csv">
@@ -542,21 +572,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/numpy/lib/twodim_base.py">
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/matplotlib/artist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="318">
+          <caret line="880" selection-start-line="880" selection-end-line="880" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="2960" selection-start-line="2960" selection-end-line="2960" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/warm/lab6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="228" selection-start-line="228" selection-end-line="279" selection-end-column="10" />
+        <state relative-caret-position="427">
+          <caret line="265" column="43" selection-start-line="265" selection-start-column="43" selection-end-line="265" selection-end-column="43" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1541605876770" expanded="true" signature="5642:6830" ph="..." />
             <marker date="1541605876770" expanded="true" signature="6039:6040" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/numpy/lib/twodim_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/GaussianLeaveOneOut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1541787084284" expanded="true" signature="135:936" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/GaussianHoldOut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="959">
+          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1541787454870" expanded="true" signature="1068:3305" ph="..." />
+            <marker date="1541787454870" expanded="true" signature="1406:1415" ph="..." />
           </folding>
         </state>
       </provider>
