@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cedd93e4-483e-44a4-b444-a00487f2578c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/warm/Lab7_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warm/Lab7.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,37 +87,39 @@
     <session id="978603644">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="18" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="18" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="GaussianLeaveOneOut" value="17" />
-          <entry key="Python Console" value="203" />
-          <entry key="dummy" value="15" />
+          <entry key="Python Console" value="860" />
+          <entry key="dummy" value="17" />
           <entry key="lab6" value="703" />
-          <entry key="py" value="7376" />
+          <entry key="py" value="10553" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="8299" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Python" value="12133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -124,9 +128,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/warm/Lab7_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/warm/Lab7.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/warm/Lab7_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="117" selection-start-line="117" selection-end-line="123" selection-end-column="10" />
+              <folding>
+                <element signature="e#774#811#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -155,6 +178,9 @@
         <option value="$PROJECT_DIR$/warm/GaussianLeaveOneOut.py" />
         <option value="$PROJECT_DIR$/warm/GaussianHoldOut.py" />
         <option value="$PROJECT_DIR$/warm/Lab7.py" />
+        <option value="$PROJECT_DIR$/warm/Lab7_1.py" />
+        <option value="$PROJECT_DIR$/warm/Lab7_3.py" />
+        <option value="$PROJECT_DIR$/warm/Lab7_2.py" />
       </list>
     </option>
   </component>
@@ -170,11 +196,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="22" />
-    <option name="width" value="1623" />
-    <option name="height" value="1028" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -208,7 +232,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -403,10 +427,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="22" width="1623" height="1028" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14674257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13308914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,12 +447,12 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.8341709" />
-      <window_info anchor="right" id="R Graphics" order="4" weight="0.32914573" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.3803419" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32905984" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" x="0" y="0" width="318" height="678" id="Documentation" order="6" side_tool="true" visible="true" weight="0.32952926" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Python Console" order="8" weight="0.9974874" />
+      <window_info anchor="right" id="Python Console" order="8" weight="0.4932845" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14423792" />
@@ -542,13 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="4122" selection-start-line="4122" selection-end-line="4122" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/numpy/lib/function_base.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1568">
@@ -556,20 +573,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/matplotlib/artist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="880" selection-start-line="880" selection-end-line="880" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/IPython/core/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="2960" selection-start-line="2960" selection-end-line="2960" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/matplotlib/artist.py" />
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/IPython/core/interactiveshell.py" />
     <entry file="file://$PROJECT_DIR$/warm/lab6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -577,13 +582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/numpy/lib/twodim_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/numpy/lib/twodim_base.py" />
     <entry file="file://$PROJECT_DIR$/warm/GaussianLeaveOneOut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
@@ -598,8 +597,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/warm/Lab7.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/sklearn/decomposition/pca.py" />
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/sklearn/svm/classes.py" />
+    <entry file="file://$USER_HOME$/anaconda3/python.app/Contents/lib/python3.7/site-packages/sklearn/model_selection/_search.py" />
+    <entry file="file://$PROJECT_DIR$/warm/Lab7_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/Lab7_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding>
+            <element signature="e#774#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warm/Lab7_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="117" selection-start-line="117" selection-end-line="123" selection-end-column="10" />
+          <folding>
+            <element signature="e#774#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
