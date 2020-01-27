@@ -1,2 +1,0 @@
-# Basic Probability and Statistics
-
